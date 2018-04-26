@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## What is Travis CI?
 
 [Travis CI](https://travis-ci.org/) is a hosted [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) platform that is free for all open source projects hosted on Github.
@@ -238,3 +239,7 @@ to run your test suite.
 - [Customizing the Build](http://docs.travis-ci.com/user/customizing-the-build/), by Travis CI
 - [CI-By-Example](https://github.com/buildfirst/ci-by-example), by bevacqua
 - [Travis-CI: What, Why, How](http://code.tutsplus.com/tutorials/travis-ci-what-why-how--net-34771), by Sayanee Basu
+=======
+# TEST-TRAVIS
+test travis
+>>>>>>> e88bade1ab0d798e91e7b536436b9b0dba8af6c3
