@@ -9,7 +9,7 @@
     "instrument": false
   },
   "scripts": {
-    "test": "cross-env NODE_ENV=test nyc mocha --compilers js:babel-core/register ./test/test.js"
+    "test": "cross-env NODE_ENV=test nyc mocha --compilers js:babel-core/register ./spec/test.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
