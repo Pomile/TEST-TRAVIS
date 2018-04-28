@@ -5,7 +5,7 @@
     "require": [
       "babel-register"
     ],
-    "include": ["**/"],
+    "include": ["progression.js", "test/**"],
     "sourceMap": false,
     "instrument": false
   },
