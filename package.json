@@ -5,6 +5,7 @@
     "require": [
       "babel-register"
     ],
+    "include": ["**/"],
     "sourceMap": false,
     "instrument": false
   },
