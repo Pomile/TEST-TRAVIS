@@ -5,12 +5,13 @@
     "require": [
       "babel-register"
     ],
-    "include": ["progression.js", "test/**"],
+    "include": ["progression.js", "test/"],
     "sourceMap": false,
     "instrument": false
   },
   "scripts": {
-    "test": "cross-env NODE_ENV=test nyc mocha --compilers js:babel-core/register ./spec/test.js"
+    "test": "cross-env NODE_ENV=test nyc mocha --compilers js:babel-core/register ./spec/test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
